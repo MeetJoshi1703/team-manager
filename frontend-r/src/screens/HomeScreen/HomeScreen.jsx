@@ -5,6 +5,7 @@ import { BsPlus } from 'react-icons/bs'; // Import the plus icon
 import "./homeScreen.css"
 import { Form, FormControl, Button, } from 'react-bootstrap';
 import {useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 
 const HomeScreen = () => {
@@ -241,9 +242,11 @@ const HomeScreen = () => {
 
       
       <div className="create-user-button">
+      <Link to='/user'>
         <Button variant="primary">
           <BsPlus /> Create User
         </Button>
+      </Link>
       </div>
     </div>
       
