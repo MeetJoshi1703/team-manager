@@ -6,7 +6,8 @@
   "main": "server.js",
   "scripts": {
     "data:import": "node ./seeder.js",
-    "data:destroy": "node ./seeder.js -d"
+    "data:destroy": "node ./seeder.js -d",
+    "start": "node server.js"
   },
   "author": "meet joshi",
   "license": "ISC",
